@@ -218,7 +218,7 @@ export const experienceSection: ExperienceType[] = [
     companyLogo: "https://www.michmieten.ch/Images/Header/Logo.png",
     duration: "Feb 2022 - Aktuell",
     desc:"dsf",
-    descBullets: ["sldfjsd", "kljdlfkjasdlf"]
+    descBullets: ["Backend Development: Python (Django), PostgreSQL, Redis, Docker", "Frontend Development: React, NextJS, Tailwind, CSS", "Github CI/CD, Docker Deployment", "NGINX, Linux Server Configuration"]
   },
   {
     role: "Robotic Process Engineer",
@@ -226,7 +226,7 @@ export const experienceSection: ExperienceType[] = [
     companyLogo: "https://www.itjobs.ch/media/filer_public/ce/0d/ce0d79a2-debc-477f-97d3-c8cc1a8d6d1d/mgb_logo.png",
     duration: "Aug 2021 - Aug 2024",
     desc: "Entwicklung von Prozessautomatisierten Bots",
-    descBullets: ["sldfjsd", "kljdlfkjasdlf"]
+    descBullets: ["Processautomation C# , .NET 8 , UiPath", "Gitlab CI/CD Implementation", "DevOps Integration", "Scrum, Jira, Azure Eventhub Usage"]
 
   },
   {
@@ -235,7 +235,7 @@ export const experienceSection: ExperienceType[] = [
     companyLogo: "https://www.unibas.ch/dam/jcr:93abfa0e-58d6-45ed-930a-de414ca40b13/uni-basel-logo.svg",
     duration: "Aug 2019 - Jun 2023",
     desc: "Durchführung von statistischen Auswertungen und Datenanalysen mit Python und R zur Unterstützung wirtschaftspsychologischer Forschung.",
-    descBullets: ["sldfjsd", "kljdlfkjasdlf"]
+    descBullets: ["Statistical evaluation Python and R", "Data analysis"]
 
   },
   {
@@ -244,7 +244,7 @@ export const experienceSection: ExperienceType[] = [
     companyLogo: "https://lobbymap.org/site//data/001/361/1361315.png",
     duration: "Oktober 2018 - März 2019",
     desc: "Intranet Entwickler",
-    descBullets: ["sldfjsd", "kljdlfkjasdlf"]
+    descBullets: ["Developing Intranet using Sharepoint", "Coordination and communication with national subsidiaries","Kanban and Jira"]
 
   },
 ];
