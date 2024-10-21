@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { greetings, socialLinks } from "../portfolio";
+import { socialLinks } from "../portfolio";
 import Link from "next/link";
 
 const Navigation = () => {
