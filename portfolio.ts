@@ -42,11 +42,11 @@ export const contact = {};
 
 export const socialLinks: SocialLinksType = {
   email: "mailto:merwin.m@hotmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
+  linkedin: "https://www.linkedin.com/in/merwin-mudavamkunnel-a73342169/",
   github: "https://github.com/merwinmu",
   // instagram: "https://www.instagram.com/merwingee",
-  // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
+  // facebook: 'https://www.facebook.com/merwin',
+  // twitter: 'https://twitter.com/merwin',
 };
 
 export const SkillsSection: { en: SkillsSectionType; de: SkillsSectionType } = {
