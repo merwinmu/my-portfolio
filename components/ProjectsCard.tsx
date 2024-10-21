@@ -1,7 +1,6 @@
 import React from "react";
-import { Card, CardBody, Col, Button } from "reactstrap";
+import { Icon } from "@iconify/react";
 import { ProjectType } from "../types/sections";
-import { useRouter } from "next/router";  // Import useRouter
 
 const ProjectsCard = ({ name, desc, github, link, duration, imageUrl, videoUrl }: ProjectType) => {
   return (
@@ -47,6 +46,8 @@ const ProjectsCard = ({ name, desc, github, link, duration, imageUrl, videoUrl }
                 className="text-white bg-gray-900 p-2 rounded-xl hover:bg-gray-500 hover:text-white"
               >
                 <div className="flex items-center justify-around gap-2">
+                  <i className="fa fa-lg fa-globe" />
+
                   <span>Website</span>
                 </div>
               </a>
@@ -60,6 +61,7 @@ const ProjectsCard = ({ name, desc, github, link, duration, imageUrl, videoUrl }
                 className="bg-gray-100 hover:bg-gray-300 p-2 rounded-xl text-black"
               >
                 <div className="flex items-center justify-around gap-2">
+                  <i className="fa fa-lg fa-github" />
                   <span>Github</span>
                 </div>
               </a>
