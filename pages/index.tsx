@@ -5,11 +5,8 @@ import { GreetingsType } from "../types/sections"; // Import the GreetingsType
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
 const Skills = dynamic(() => import("../containers/Skills"));
-const Proficiency = dynamic(() => import("../containers/Proficiency"));
 const Career = dynamic(() => import("../containers/Career"));
-const Experience = dynamic(() => import("../containers/Experience"));
 const Projects = dynamic(() => import("../containers/Projects"));
-const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
 const GithubProfileCard = dynamic(() => import("../components/GithubProfileCard"));
 import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
