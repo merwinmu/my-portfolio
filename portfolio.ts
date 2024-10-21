@@ -481,13 +481,6 @@ export const experienceSection: { en: ExperienceSection; de: ExperienceSection }
 export const projects: { en: ProjectType[]; de: ProjectType[] } = {
   en: [
     {
-      name: "michmieten.ch",
-      desc: "michmieten.ch is an innovative online platform where anyone can rent vehicles. The platform allows users to quickly and easily find and rent vehicles. With an integrated booking tool, rental processes can be conveniently handled online. michmieten.ch offers a user-friendly solution for anyone needing a vehicle, ensuring smooth rental processing.",
-      link: "michmieten.ch",
-      duration: "2022",
-      videoUrl: "video/michmieten_video.mp4",
-    },
-    {
       name: "michliefern.ch",
       desc: "michliefern.ch is a platform for couriers and logistics, where customers can specify the starting and destination points, and the price is automatically calculated. The website provides an efficient solution for transporting and delivering goods.",
       github: "https://github.com/merwinmu/michliefern-nextjs",
@@ -495,6 +488,14 @@ export const projects: { en: ProjectType[]; de: ProjectType[] } = {
       duration: "2024",
       videoUrl: "video/michliefern_video.mp4",
     },
+    {
+      name: "michmieten.ch",
+      desc: "michmieten.ch is an innovative online platform where anyone can rent vehicles. The platform allows users to quickly and easily find and rent vehicles. With an integrated booking tool, rental processes can be conveniently handled online. michmieten.ch offers a user-friendly solution for anyone needing a vehicle, ensuring smooth rental processing.",
+      link: "michmieten.ch",
+      duration: "2022",
+      videoUrl: "video/michmieten_video.mp4",
+    },
+    
     {
       name: "GoFind MR",
       desc: "GoFind! is a prototype that allows users to visualize historical multimedia collections at their real-world location using augmented reality and multimedia retrieval technologies. The application is primarily targeted at Microsoft HoloLens 2",
@@ -513,13 +514,7 @@ export const projects: { en: ProjectType[]; de: ProjectType[] } = {
     },
   ],
   de: [
-    {
-      name: "michmieten.ch",
-      desc: "michmieten.ch ist ein innovatives Online-Portal, auf dem Fahrzeuge für jedermann zur Miete angeboten werden. Die Plattform ermöglicht es Nutzern, schnell und einfach Fahrzeuge zu finden und zu mieten. Dank des integrierten Buchungstools können Mietvorgänge bequem online abgewickelt werden.",
-      link: "michmieten.ch",
-      duration: "2022",
-      videoUrl: "video/michmieten_video.mp4",
-    },
+    
     {
       name: "michliefern.ch",
       desc: "michliefern.ch ist eine Plattform für Kuriere und Logistik, auf der Kunden den Start- und Zielort angeben können, und der Preis automatisch kalkuliert wird. Die Website bietet eine effiziente Lösung für den Transport und die Zustellung von Waren.",
@@ -527,6 +522,13 @@ export const projects: { en: ProjectType[]; de: ProjectType[] } = {
       link: "michliefern.ch",
       duration: "2024",
       videoUrl: "video/michliefern_video.mp4",
+    },
+    {
+      name: "michmieten.ch",
+      desc: "michmieten.ch ist ein innovatives Online-Portal, auf dem Fahrzeuge für jedermann zur Miete angeboten werden. Die Plattform ermöglicht es Nutzern, schnell und einfach Fahrzeuge zu finden und zu mieten. Dank des integrierten Buchungstools können Mietvorgänge bequem online abgewickelt werden.",
+      link: "michmieten.ch",
+      duration: "2022",
+      videoUrl: "video/michmieten_video.mp4",
     },
     {
       name: "GoFind MR",
