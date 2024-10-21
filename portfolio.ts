@@ -371,7 +371,7 @@ export const experienceSection: { en: ExperienceSection; de: ExperienceSection }
       {
         role: "Full Stack Engineer and Founder",
         company: "michmieten.ch gmbh",
-        companyLogo: "https://www.michmieten.ch/Images/Header/Logo.png",
+        companyLogo: "https://www.michmieten.ch/_next/image?url=%2FImages%2FHeader%2FLogoText.png&w=256&q=75",
         duration: "Febuary 2022 - Present",
         desc: "Founder and lead developer for michmieten.ch",
         descBullets: [
@@ -427,7 +427,7 @@ export const experienceSection: { en: ExperienceSection; de: ExperienceSection }
         {
           role: "Full Stack Engineer und Inhaber",
           company: "michmieten.ch gmbh",
-          companyLogo: "https://www.michmieten.ch/Images/Header/Logo.png",
+          companyLogo: "https://www.michmieten.ch/_next/image?url=%2FImages%2FHeader%2FLogoText.png&w=256&q=75",
           duration: "Februar 2022 - Aktuell",
           desc: "Gründer und leitender Entwickler von michmieten.ch",
           descBullets: [
