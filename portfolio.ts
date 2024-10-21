@@ -17,7 +17,7 @@ export const greetings: { en: GreetingsType; de: GreetingsType } = {
     title: "Merwin Mudavamkunnel",
     description:
       "I am a passionate software developer with extensive experience in developing web applications using Python, Django, React.js, and cloud technologies. My enthusiasm for new technologies motivates me to continuously learn and integrate them into my projects. As a self-motivated and dedicated developer, I enjoy working in teams and taking on challenges. Additionally, I have experience as an RPA developer and in Mixed Reality development with Unity.",
-    resumeLink: "/pdf/test_cv.pdf",
+    resumeLink: "/pdf/Resume.pdf",
     resumeTitle: "My Resume",
     imageUrl:
       "https://media.licdn.com/dms/image/v2/D4E03AQELxvdKuu8TIQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729179967364?e=1734566400&v=beta&t=dvDx7U-1L_Ck6kQXYoIvBhni1JZmOWMU5xD0RovFJ04",
@@ -27,7 +27,7 @@ export const greetings: { en: GreetingsType; de: GreetingsType } = {
     title: "Merwin Mudavamkunnel",
     description:
       "Ich bin ein leidenschaftlicher Software Entwickler mit umfangreicher Erfahrung in der Entwicklung von Webanwendungen unter Einsatz von Python, Django, React.js und Cloud-Technologien. Meine Begeisterung für neue Technologien motiviert mich, diese kontinuierlich zu erlernen und in meine Projekte zu integrieren. Als selbstmotivierter und engagierter Entwickler arbeite ich gerne im Team und nehme Herausforderungen an. Zudem habe ich Erfahrung als RPA-Entwickler sowie in der Mixed Reality-Entwicklung mit Unity",
-    resumeLink: "/pdf/test_cv.pdf",
+    resumeLink: "/pdf/Lebenslauf.pdf",
     resumeTitle: "Mein Lebenslauf",
     imageUrl:
       "https://media.licdn.com/dms/image/v2/D4E03AQELxvdKuu8TIQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729179967364?e=1734566400&v=beta&t=dvDx7U-1L_Ck6kQXYoIvBhni1JZmOWMU5xD0RovFJ04",
