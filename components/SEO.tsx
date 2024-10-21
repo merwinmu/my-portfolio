@@ -11,6 +11,8 @@ function SEO() {
       <meta name="description" content={seoData.description} />
       <meta name="keywords" content={seoData.keywords.join(", ")} />
       <link rel="canonical" href={seoData.url} />
+      <meta name="theme-color" content="#ffffff"/>
+
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content={seoData.url} />
