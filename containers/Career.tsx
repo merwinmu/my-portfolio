@@ -2,18 +2,22 @@ import React from "react";
 import EducationCard from "../components/EducationCard";
 import { educationSection, experienceSection } from "../portfolio";
 import { Container, Row, Col } from "reactstrap";
-import Fade from "react-reveal/Fade";
+import { useRouter } from "next/router"; // Import useRouter
 import ExperienceCard from "../components/ExperienceCard";
 
 const Career = () => {
+  const { locale } = useRouter(); // Get the current locale (e.g., 'en' or 'de')
+  const localizedExperience = experienceSection[locale as keyof typeof experienceSection]; // Select the experience section for the current locale
+  const localizedEducation = educationSection[locale as keyof typeof educationSection]; // Select the experience section for the current locale
+
   return (
       <section className="">
 
         <Container className="flex flex-col">
           <div>
-          <h2 className="h2 text-center pb-4">{educationSection.title}</h2>
+          <h2 className="h2 text-center pb-4">{localizedExperience.title}</h2>
 
-            {experienceSection.map(info => {
+            {localizedExperience.experienceType.map(info => {
               return (
                 <div>
                   <ol className="flex justify-center" key={info.company}>
@@ -25,9 +29,9 @@ const Career = () => {
             })}
           </div>
           <div className="py-8">
-          <h2 className="h2 text-center pb-4">{educationSection.title}</h2>
+          <h2 className="h2 text-center pb-4">{localizedEducation.title}</h2>
 
-            {educationSection.educationTypes.map(info => {
+            {localizedEducation.educationTypes.map(info => {
               return (
                 <div>
                   <ol className="flex justify-center" key={info.schoolName}>
@@ -38,11 +42,7 @@ const Career = () => {
               );
             })}
           </div>
-
         </Container>
-
-
-
       </section>
 
   );

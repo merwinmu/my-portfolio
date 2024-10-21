@@ -1,4 +1,7 @@
 import dynamic from "next/dynamic";
+import { useRouter } from 'next/router';
+import { greetings } from "../portfolio";
+import { GreetingsType } from "../types/sections"; // Import the GreetingsType
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
 const Skills = dynamic(() => import("../containers/Skills"));
@@ -13,6 +16,11 @@ import SEO from "../components/SEO";
 import { GithubUserType } from "../types";
 
 export default function Home({ githubProfileData }: { githubProfileData: any }) {
+  const { locale } = useRouter();  // Get current language locale (e.g., 'en' or 'de')
+
+  const selectedGreetings: GreetingsType = greetings[locale as keyof typeof greetings];
+
+
   return (
 
 <div className="min-h-screen bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">

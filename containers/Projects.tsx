@@ -1,9 +1,14 @@
 import React from "react";
+import { useRouter } from "next/router";  // Import useRouter
 import { projects } from "../portfolio";
 import { Container, Row, Col } from "reactstrap";
 import ProjectsCard from "../components/ProjectsCard";
 
 const Projects = () => {
+  const { locale } = useRouter();  // Get the current locale (e.g., 'en' or 'de')
+
+  const localizedProjects = projects[locale as keyof typeof projects];  // Select the projects array for the current locale
+
   return (
       <div >
         
@@ -14,7 +19,7 @@ const Projects = () => {
         {/* Tailwind CSS grid layout */}
         <Container >
           <Row>
-            {projects.map((data, i) => (
+            {localizedProjects.map((data, i) => (
               <Col key={i} md="6" lg="6" className="mb-4 ">
               <ProjectsCard key={i} {...data} />
               </Col>

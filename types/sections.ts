@@ -20,6 +20,7 @@ export type GreetingsType = {
   title: string;
   description?: string;
   resumeLink?: string;
+  resumeTitle?: string;
   imageUrl: string;
 };
 
@@ -69,6 +70,11 @@ export type EducationType = {
 };
 
 // * EXPERIENCE SECTION
+
+export type ExperienceSection = {
+  title: string;
+  experienceType: ExperienceType[]
+};
 
 export type ExperienceType = {
   role: string;

@@ -1,27 +1,28 @@
 import React from "react";
-import { Card, Col, Row, Container } from "reactstrap";
-import { GithubUserType } from "../types";
-import SocialLinks from "./SocialLinks";
 import Link from "next/link";
+import { useRouter } from "next/router";  // Import useRouter
+import { githubProfileCardContent } from "../portfolio";  // Import the translation content
 
-const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
+const GithubProfileCard = () => {
+  const { locale } = useRouter();  // Get the current locale (e.g., 'en' or 'de')
+
+  // Get the content based on the current locale
+  const content = githubProfileCardContent[locale as keyof typeof githubProfileCardContent];
+
   return (
     <section id="contact">
-      <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+      <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full p-24">
         <div className="space-y-3">
-          
-          <h3 className="h3">
-             Kontakt aufnehmen
-          </h3>
+          <h3 className="h3">{content.title}</h3>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-          Möchten Sie mir eine Nachricht schreiben? <br></br>
+            {content.description}
+            <br />
             <Link
-              href="mailto:merwin.m@hotmail.com"
+              href={"mailto:"+content.mail}
               className="text-blue-500 hover:underline"
             >
-              Schicken Sie mir einfach eine Mail{" "}
-            </Link>{" "}
-           
+              {content.mailLinkText}{" "}
+            </Link>
           </p>
         </div>
       </div>
