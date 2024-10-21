@@ -26,7 +26,7 @@ export const greetings: { en: GreetingsType; de: GreetingsType } = {
     name: "Merwin Mudavamkunnel",
     title: "Merwin Mudavamkunnel",
     description:
-      "Ich bin ein leidenschaftlicher Software Entwickler mit umfangreicher Erfahrung in der Entwicklung von Webanwendungen unter Einsatz von Python, Django, React.js und Cloud-Technologien. Meine Begeisterung für neue Technologien motiviert mich, diese kontinuierlich zu erlernen und in meine Projekte zu integrieren. Als selbstmotivierter und engagierter Entwickler arbeite ich gerne im Team und nehme Herausforderungen an. Zudem habe ich Erfahrung als RPA-Entwickler sowie in der Mixed Reality-Entwicklung mit Unity",
+      "Ich bin ein leidenschaftlicher Software Entwickler mit umfangreicher Erfahrung in der Entwicklung von Webanwendungen unter Einsatz von Python, Django, React.js und Cloud-Technologien. Meine Begeisterung für neue Technologien motiviert mich, diese kontinuierlich zu erlernen und in meine Projekte zu integrieren. Als selbstmotivierter und engagierter Entwickler arbeite ich gerne im Team und nehme Herausforderungen an. Zudem habe ich Erfahrung als RPA-Entwickler sowie in der Mixed Reality-Entwicklung mit Unity.",
     resumeLink: "/pdf/Lebenslauf.pdf",
     resumeTitle: "Mein Lebenslauf",
     imageUrl:
