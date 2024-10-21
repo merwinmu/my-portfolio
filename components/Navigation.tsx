@@ -13,7 +13,7 @@ const Navigation = () => {
 
   return (
     <div className="max-w-5xl mx-auto">
-      <div className="flex gap-3 justify-between p-4">
+      <div className="flex gap-3 justify-between items-center p-4">
         <div className="flex gap-3">
           {/* Social Links */}
           {socialLinks.facebook && (
@@ -51,7 +51,7 @@ const Navigation = () => {
                 href={socialLinks.github}
                 target="_blank"
               >
-                <i className="fa fa-github" />
+                <i className="fa fa-lg fa-github" />
               </Link>
             </div>
           )}
@@ -64,7 +64,7 @@ const Navigation = () => {
                 href={socialLinks.linkedin}
                 target="_blank"
               >
-                <i className="fa fa-linkedin" />
+                <i className="fa fa-lg fa-linkedin" />
               </Link>
             </div>
           )}
@@ -77,7 +77,7 @@ const Navigation = () => {
                 href={socialLinks.twitter}
                 target="_blank"
               >
-                <i className="fa fa-twitter-square" />
+                <i className="fa fa-lg fa-twitter-square" />
                 <span className="nav-link-inner--text d-lg-none ml-2">Twitter</span>
               </Link>
             </div>
