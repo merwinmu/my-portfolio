@@ -8,6 +8,7 @@ import {
   GreetingsType,
   EducationSection,
   ExperienceSection,
+  ProjectSection,
 } from "./types/sections";
 
 // Define greetings for both languages, ensuring it matches GreetingsType
@@ -478,75 +479,81 @@ export const experienceSection: { en: ExperienceSection; de: ExperienceSection }
 };
 
 
-export const projects: { en: ProjectType[]; de: ProjectType[] } = {
-  en: [
-    {
-      name: "michliefern.ch",
-      desc: "michliefern.ch is a platform for couriers and logistics, where customers can specify the starting and destination points, and the price is automatically calculated. The website provides an efficient solution for transporting and delivering goods.",
-      github: "https://github.com/merwinmu/michliefern-nextjs",
-      link: "https://michliefern.ch",
-      duration: "2024",
-      videoUrl: "video/michliefern_video.mp4",
-    },
-    {
-      name: "michmieten.ch",
-      desc: "michmieten.ch is an innovative online platform where anyone can rent vehicles. The platform allows users to quickly and easily find and rent vehicles. With an integrated booking tool, rental processes can be conveniently handled online. michmieten.ch offers a user-friendly solution for anyone needing a vehicle, ensuring smooth rental processing.",
-      link: "https://michmieten.ch",
-      duration: "2022",
-      videoUrl: "video/michmieten_video.mp4",
-    },
-    
-    {
-      name: "GoFind MR",
-      desc: "GoFind! is a prototype that allows users to visualize historical multimedia collections at their real-world location using augmented reality and multimedia retrieval technologies. The application is primarily targeted at Microsoft HoloLens 2",
-      github: "https://github.com/merwinmu/GoFindMR",
-      duration: "2021",
-      imageUrl: "https://github.com/merwinmu/GoFindMR/blob/master/img/hand2.jpg?raw=true",
-      link: "https://dbis.dmi.unibas.ch/teaching/studentprojects/historic-image-presentation-in-mixed-reality-using-hololens/",
-    },
-    {
-      name: "HoloLens GPS",
-      desc: "HoloLens GPS is a companion application for HoloLens or GoFind that transfers GPS location data from Android to a UWP app or directly to the HoloLens via Bluetooth LE.",
-      github: "https://github.com/merwinmu/HololensGPS",
-      duration: "2021",
-      imageUrl: "https://github.com/merwinmu/GoFindMR/raw/master/img/showmap.jpg",
-      link: "https://dbis.dmi.unibas.ch/teaching/studentprojects/historic-image-presentation-in-mixed-reality-using-hololens/",
-    },
-  ],
-  de: [
-    
-    {
-      name: "michliefern.ch",
-      desc: "michliefern.ch ist eine Plattform für Kuriere und Logistik, auf der Kunden den Start- und Zielort angeben können, und der Preis automatisch kalkuliert wird. Die Website bietet eine effiziente Lösung für den Transport und die Zustellung von Waren.",
-      github: "https://github.com/merwinmu/michliefern-nextjs",
-      link: "https://michliefern.ch",
-      duration: "2024",
-      videoUrl: "video/michliefern_video.mp4",
-    },
-    {
-      name: "michmieten.ch",
-      desc: "michmieten.ch ist ein innovatives Online-Portal, auf dem Fahrzeuge für jedermann zur Miete angeboten werden. Die Plattform ermöglicht es Nutzern, schnell und einfach Fahrzeuge zu finden und zu mieten. Dank des integrierten Buchungstools können Mietvorgänge bequem online abgewickelt werden.",
-      link: "https://michmieten.ch",
-      duration: "2022",
-      videoUrl: "video/michmieten_video.mp4",
-    },
-    {
-      name: "GoFind MR",
-      desc: "Die GoFind! Anwendung ist ein Prototyp, der es Nutzern ermöglicht, historische multimediale Sammlungen an ihrem realen Standort mithilfe von Augmented Reality und Multimedia-Retrieval-Technologien zu visualisieren. Die Anwendung zielt hauptsächlich auf Microsoft HoloLens 2 ab",
-      github: "https://github.com/merwinmu/GoFindMR",
-      duration: "2021",
-      imageUrl: "https://github.com/merwinmu/GoFindMR/blob/master/img/hand2.jpg?raw=true",
-      link: "https://dbis.dmi.unibas.ch/teaching/studentprojects/historic-image-presentation-in-mixed-reality-using-hololens/",
-    },
-    {
-      name: "HoloLens GPS",
-      desc: "HoloLens GPS ist eine Begleitapplikation für die HoloLens bzw. GoFind, um GPS-Positionsdaten über Bluetooth LE von Android an eine UWP-Anwendung oder direkt an die HoloLens zu übertragen.",
-      github: "https://github.com/merwinmu/HololensGPS",
-      duration: "2021",
-      imageUrl: "https://github.com/merwinmu/GoFindMR/raw/master/img/showmap.jpg",
-      link: "https://dbis.dmi.unibas.ch/teaching/studentprojects/historic-image-presentation-in-mixed-reality-using-hololens/",
-    },
-  ],
+export const projects: { en: ProjectSection; de: ProjectSection } = {
+  en: {
+    title: "My Projects",
+    projectType: [
+      {
+        name: "michliefern.ch",
+        desc: "michliefern.ch is a platform for couriers and logistics, where customers can specify the starting and destination points, and the price is automatically calculated. The website provides an efficient solution for transporting and delivering goods.",
+        github: "https://github.com/merwinmu/michliefern-nextjs",
+        link: "https://michliefern.ch",
+        duration: "2024",
+        videoUrl: "video/michliefern_video.mp4",
+      },
+      {
+        name: "michmieten.ch",
+        desc: "michmieten.ch is an innovative online platform where anyone can rent vehicles. The platform allows users to quickly and easily find and rent vehicles. With an integrated booking tool, rental processes can be conveniently handled online. michmieten.ch offers a user-friendly solution for anyone needing a vehicle, ensuring smooth rental processing.",
+        link: "https://michmieten.ch",
+        duration: "2022",
+        videoUrl: "video/michmieten_video.mp4",
+      },
+
+      {
+        name: "GoFind MR",
+        desc: "GoFind! is a prototype that allows users to visualize historical multimedia collections at their real-world location using augmented reality and multimedia retrieval technologies. The application is primarily targeted at Microsoft HoloLens 2",
+        github: "https://github.com/merwinmu/GoFindMR",
+        duration: "2021",
+        imageUrl: "https://github.com/merwinmu/GoFindMR/blob/master/img/hand2.jpg?raw=true",
+        link: "https://dbis.dmi.unibas.ch/teaching/studentprojects/historic-image-presentation-in-mixed-reality-using-hololens/",
+      },
+      {
+        name: "HoloLens GPS",
+        desc: "HoloLens GPS is a companion application for HoloLens or GoFind that transfers GPS location data from Android to a UWP app or directly to the HoloLens via Bluetooth LE.",
+        github: "https://github.com/merwinmu/HololensGPS",
+        duration: "2021",
+        imageUrl: "https://github.com/merwinmu/GoFindMR/raw/master/img/showmap.jpg",
+        link: "https://dbis.dmi.unibas.ch/teaching/studentprojects/historic-image-presentation-in-mixed-reality-using-hololens/",
+      },
+    ]
+  },
+  de: {
+    title: "Meine Projekte",
+    projectType: [
+
+      {
+        name: "michliefern.ch",
+        desc: "michliefern.ch ist eine Plattform für Kuriere und Logistik, auf der Kunden den Start- und Zielort angeben können, und der Preis automatisch kalkuliert wird. Die Website bietet eine effiziente Lösung für den Transport und die Zustellung von Waren.",
+        github: "https://github.com/merwinmu/michliefern-nextjs",
+        link: "https://michliefern.ch",
+        duration: "2024",
+        videoUrl: "video/michliefern_video.mp4",
+      },
+      {
+        name: "michmieten.ch",
+        desc: "michmieten.ch ist ein innovatives Online-Portal, auf dem Fahrzeuge für jedermann zur Miete angeboten werden. Die Plattform ermöglicht es Nutzern, schnell und einfach Fahrzeuge zu finden und zu mieten. Dank des integrierten Buchungstools können Mietvorgänge bequem online abgewickelt werden.",
+        link: "https://michmieten.ch",
+        duration: "2022",
+        videoUrl: "video/michmieten_video.mp4",
+      },
+      {
+        name: "GoFind MR",
+        desc: "Die GoFind! Anwendung ist ein Prototyp, der es Nutzern ermöglicht, historische multimediale Sammlungen an ihrem realen Standort mithilfe von Augmented Reality und Multimedia-Retrieval-Technologien zu visualisieren. Die Anwendung zielt hauptsächlich auf Microsoft HoloLens 2 ab",
+        github: "https://github.com/merwinmu/GoFindMR",
+        duration: "2021",
+        imageUrl: "https://github.com/merwinmu/GoFindMR/blob/master/img/hand2.jpg?raw=true",
+        link: "https://dbis.dmi.unibas.ch/teaching/studentprojects/historic-image-presentation-in-mixed-reality-using-hololens/",
+      },
+      {
+        name: "HoloLens GPS",
+        desc: "HoloLens GPS ist eine Begleitapplikation für die HoloLens bzw. GoFind, um GPS-Positionsdaten über Bluetooth LE von Android an eine UWP-Anwendung oder direkt an die HoloLens zu übertragen.",
+        github: "https://github.com/merwinmu/HololensGPS",
+        duration: "2021",
+        imageUrl: "https://github.com/merwinmu/GoFindMR/raw/master/img/showmap.jpg",
+        link: "https://dbis.dmi.unibas.ch/teaching/studentprojects/historic-image-presentation-in-mixed-reality-using-hololens/",
+      },
+  ]
+  },
 };
 
 

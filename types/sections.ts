@@ -87,6 +87,11 @@ export type ExperienceType = {
 
 // * PROJECT SECTION
 
+export type ProjectSection = {
+  title: string;
+  projectType: ProjectType[]
+};
+
 export type ProjectType = {
   name: string;
   desc: string;

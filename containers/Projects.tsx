@@ -13,13 +13,13 @@ const Projects = () => {
       <div >
         
         <div className="text-center">
-          <h2 className="h2 text-center pb-4">Meine Projekte</h2>
+          <h2 className="h2 text-center pb-4">{localizedProjects.title}</h2>
         </div>
 
         {/* Tailwind CSS grid layout */}
         <Container >
           <Row>
-            {localizedProjects.map((data, i) => (
+            {localizedProjects.projectType.map((data, i) => (
               <Col key={i} md="6" lg="6" className="mb-4 ">
               <ProjectsCard key={i} {...data} />
               </Col>
