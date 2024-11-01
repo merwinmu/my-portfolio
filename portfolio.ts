@@ -426,7 +426,7 @@ export const experienceSection: { en: ExperienceSection; de: ExperienceSection }
     experienceType:
       [
         {
-          role: "Full Stack Engineer und Inhaber",
+          role: "Full Stack Engineer und Founder",
           company: "michmieten.ch gmbh",
           companyLogo: "https://www.michmieten.ch/_next/image?url=%2FImages%2FHeader%2FLogoText.png&w=256&q=75",
           duration: "Februar 2022 - Aktuell",
