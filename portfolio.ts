@@ -401,9 +401,9 @@ export const experienceSection: { en: ExperienceSection; de: ExperienceSection }
         company: "Universität Basel",
         companyLogo:
           "https://www.unibas.ch/dam/jcr:93abfa0e-58d6-45ed-930a-de414ca40b13/uni-basel-logo.svg",
-        duration: "August 2019 - June 2023",
+        duration: "August 2019 - June 2021",
         desc: "Statistical evaluations and data analysis for economic psychology research.",
-        descBullets: ["Statistical evaluation using Python and R", "Data analysis"],
+        descBullets: ["Statistical evaluation using Python and R", "Data analysis","Literature review for the paper: “A robust Bayesian test for identifying context effects in multiattribute decision-making” (Dimitri Katsimpokis, Laura Fontanesi, and Jörg Rieskamp)"],
       },
       {
         role: "Intranet Developer",
@@ -457,9 +457,9 @@ export const experienceSection: { en: ExperienceSection; de: ExperienceSection }
           company: "Universität Basel",
           companyLogo:
             "https://www.unibas.ch/dam/jcr:93abfa0e-58d6-45ed-930a-de414ca40b13/uni-basel-logo.svg",
-          duration: "August 2019 - June 2023",
+          duration: "August 2019 - Juni 2021",
           desc: "Statistische Auswertungen und Datenanalysen zur Unterstützung wirtschaftspsychologischer Forschung.",
-          descBullets: ["Statistische Auswertung mit Python und R", "Datenanalyse"],
+          descBullets: ["Statistische Auswertung mit Python und R", "Datenanalyse","Literature review for the paper: “A robust Bayesian test for identifying context effects in multiattribute decision-making” (Dimitri Katsimpokis, Laura Fontanesi, and Jörg Rieskamp)" ],
         },
         {
           role: "Intranet Entwickler",
