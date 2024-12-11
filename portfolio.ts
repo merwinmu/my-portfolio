@@ -534,7 +534,7 @@ export const projects: { en: ProjectSection; de: ProjectSection } = {
         github: "https://github.com/merwinmu/muttenzer_fahrzeugglas_nextjs",
         link: "https://www.muttenzer-fahrzeugglas.ch",
         duration: "2024",
-        videoUrl: "video/michliefern_video.mp4",
+        videoUrl: "video/muttenzer_video.mp4",
       },
       {
         name: "michliefern.ch",
