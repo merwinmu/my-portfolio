@@ -484,6 +484,14 @@ export const projects: { en: ProjectSection; de: ProjectSection } = {
     title: "My Projects",
     projectType: [
       {
+        name: "muttenzer-fahrzeugglas.ch",
+        desc: "A modern and user-friendly website I developed for a vehicle glass replacement service. The platform allows customers to easily request repair and replacement services for their car windows. Designed with a focus on clear navigation, appealing aesthetics, and optimized loading times, it ensures a seamless user experience.",
+        github: "https://github.com/merwinmu/muttenzer_fahrzeugglas_nextjs",
+        link: "https://muttenzer-fahrzeugglas.ch",
+        duration: "2024",
+        videoUrl: "video/muttenzer_video.mp4",
+      },
+      {
         name: "michliefern.ch",
         desc: "michliefern.ch is a platform for couriers and logistics, where customers can specify the starting and destination points, and the price is automatically calculated. The website provides an efficient solution for transporting and delivering goods.",
         github: "https://github.com/merwinmu/michliefern-nextjs",
@@ -520,7 +528,14 @@ export const projects: { en: ProjectSection; de: ProjectSection } = {
   de: {
     title: "Meine Projekte",
     projectType: [
-
+      {
+        name: "Muttenzer Fahrzeuzgglas",
+        desc: "Eine moderne und benutzerfreundliche Website, die ich für einen Fahrzeugglaswechsel-Dienst entwickelt habe. Die Plattform bietet Kunden die Möglichkeit, unkompliziert Reparatur- und Austauschservices für Autoglas anzufragen. Sie wurde mit einem Fokus auf klare Navigation, ansprechendes Design und optimierte Ladezeiten erstellt, um eine nahtlose Nutzererfahrung zu gewährleisten.",
+        github: "https://github.com/merwinmu/muttenzer_fahrzeugglas_nextjs",
+        link: "https://www.muttenzer-fahrzeugglas.ch",
+        duration: "2024",
+        videoUrl: "video/michliefern_video.mp4",
+      },
       {
         name: "michliefern.ch",
         desc: "michliefern.ch ist eine Plattform für Kuriere und Logistik, auf der Kunden den Start- und Zielort angeben können, und der Preis automatisch kalkuliert wird. Die Website bietet eine effiziente Lösung für den Transport und die Zustellung von Waren.",
