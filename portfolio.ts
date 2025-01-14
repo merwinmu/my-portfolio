@@ -21,7 +21,7 @@ export const greetings: { en: GreetingsType; de: GreetingsType } = {
     resumeLink: "/pdf/Resume.pdf",
     resumeTitle: "My Resume",
     imageUrl:
-      "https://media.licdn.com/dms/image/v2/D4E03AQELxvdKuu8TIQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729179967364?e=1734566400&v=beta&t=dvDx7U-1L_Ck6kQXYoIvBhni1JZmOWMU5xD0RovFJ04",
+      "https://media.licdn.com/dms/image/v2/D4E03AQELxvdKuu8TIQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729179967364?e=1742428800&v=beta&t=gr7fLuhP4Xz0Pw_u0zwv2vhWCq8rR19pLEdJn93p1Bk",
   },
   de: {
     name: "Merwin Mudavamkunnel",
@@ -31,7 +31,7 @@ export const greetings: { en: GreetingsType; de: GreetingsType } = {
     resumeLink: "/pdf/Lebenslauf.pdf",
     resumeTitle: "Mein Lebenslauf",
     imageUrl:
-      "https://media.licdn.com/dms/image/v2/D4E03AQELxvdKuu8TIQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729179967364?e=1734566400&v=beta&t=dvDx7U-1L_Ck6kQXYoIvBhni1JZmOWMU5xD0RovFJ04",
+      "https://media.licdn.com/dms/image/v2/D4E03AQELxvdKuu8TIQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729179967364?e=1742428800&v=beta&t=gr7fLuhP4Xz0Pw_u0zwv2vhWCq8rR19pLEdJn93p1Bk",
   },
 };
 
