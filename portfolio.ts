@@ -577,7 +577,7 @@ export const seoData: SEODataType = {
   title: "Merwin Mudavamkunnel",
   description: greetings.de.description,
   author: "Merwin Mudavamkunnel",
-  image: "https://media.licdn.com/dms/image/v2/D4E03AQELxvdKuu8TIQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729179967426?e=1735171200&v=beta&t=DDxkin2viG-JHaULF_Qk-yM3By6YCRY3TlIhlnFNtm0",
+  image: "https://media.licdn.com/dms/image/v2/D4E03AQELxvdKuu8TIQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729179967364?e=1742428800&v=beta&t=gr7fLuhP4Xz0Pw_u0zwv2vhWCq8rR19pLEdJn93p1Bk",
   url: "https://portfolio-merwin-mudavamkunnel.vercel.app",
   keywords: [
     "Merwin",
