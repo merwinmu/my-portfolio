@@ -17,14 +17,14 @@ const ProjectsCard = ({ name, desc, github, link, duration, imageUrl, videoUrl }
       )}
 
       {videoUrl && (
-        <div className="relative overflow-hidden">
+          <div className="relative overflow-hidden h-72">
           <video
             src={videoUrl}
             autoPlay
             loop
             muted
             playsInline
-            className="w-full h-auto object-cover"
+            className="w-full h-full object-cover"
           />
         </div>
       )}

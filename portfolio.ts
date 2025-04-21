@@ -484,9 +484,15 @@ export const projects: { en: ProjectSection; de: ProjectSection } = {
     title: "My Projects",
     projectType: [
       {
+        name: "autowerklausen.ch",
+        desc: "A modern and user-friendly website I developed for a paint and repair workshop for cars.",
+        link: "https://autowerklausen.ch",
+        duration: "2025",
+        videoUrl: "video/autowerklausen_video.mp4",
+      },
+      {
         name: "muttenzer-fahrzeugglas.ch",
-        desc: "A modern and user-friendly website I developed for a vehicle glass replacement service. The platform allows customers to easily request repair and replacement services for their car windows.",
-        github: "https://github.com/merwinmu/muttenzer_fahrzeugglas_nextjs",
+        desc: "A modern and user-friendly website I developed for a vehicle glass replacement service.",
         link: "https://muttenzer-fahrzeugglas.ch",
         duration: "2024",
         videoUrl: "video/muttenzer_video.mp4",
@@ -529,9 +535,15 @@ export const projects: { en: ProjectSection; de: ProjectSection } = {
     title: "Meine Projekte",
     projectType: [
       {
+        name: "autowerklausen.ch",
+        desc: "Eine moderne und benutzerfreundliche Website für eine Lackier- und Reparaturwerkstatt für Autos, die ich entwickelt habe.",
+        link: "https://autowerklausen.ch",
+        duration: "2025",
+        videoUrl: "video/autowerklausen_video.mp4",
+      },
+      {
         name: "Muttenzer Fahrzeuzgglas",
         desc: "Eine moderne und benutzerfreundliche Website, die ich für einen Fahrzeugglaswechsel-Dienst entwickelt habe. Die Plattform bietet Kunden die Möglichkeit, unkompliziert Reparatur- und Austauschservices für Autoglas anzufragen.",
-        github: "https://github.com/merwinmu/muttenzer_fahrzeugglas_nextjs",
         link: "https://www.muttenzer-fahrzeugglas.ch",
         duration: "2024",
         videoUrl: "video/muttenzer_video.mp4",

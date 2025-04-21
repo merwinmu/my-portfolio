@@ -17,15 +17,16 @@ const Projects = () => {
         </div>
 
         {/* Tailwind CSS grid layout */}
-        <Container >
-          <Row>
-            {localizedProjects.projectType.map((data, i) => (
-              <Col key={i} md="6" lg="6" className="mb-4 ">
-              <ProjectsCard key={i} {...data} />
-              </Col>
-            ))}
-        </Row>
-      </Container>
+        <Container>
+  <Row>
+    {localizedProjects.projectType.map((data, i) => (
+      <Col key={i} xs="12" md="6" className="mb-4">
+        <ProjectsCard {...data} />
+      </Col>
+    ))}
+  </Row>
+</Container>
+      
     </div>
   )
 

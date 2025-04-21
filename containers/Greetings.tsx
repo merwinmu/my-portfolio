@@ -25,8 +25,8 @@ const Greetings = () => {
               <div>
                 <div className="flex justify-start items-center gap-4">
                   <img
-                    src={localizedGreeting.imageUrl}  // Use the localized image URL
-                    alt="Description"
+                    src="/img/profil.jpeg"  // Use the localized image URL
+                    alt="Profile"
                     style={{ width: '20%', borderRadius: '50%' }}
                     className="shadow-lg "
                   />
