@@ -326,7 +326,7 @@ export const educationSection: { en: EducationSection; de: EducationSection } = 
       {
         schoolName: "University of Basel",
         subHeader: "Master of Science in Computer Science",
-        duration: "September 2023 - April 2025",
+        duration: "September 2023 - März 2025",
         urlLogo: "https://www.unibas.ch/dam/jcr:93abfa0e-58d6-45ed-930a-de414ca40b13/uni-basel-logo.svg",
         projectTitle: "Master Thesis",
         project: "Automated Testing of Website Functionality",
@@ -347,7 +347,7 @@ export const educationSection: { en: EducationSection; de: EducationSection } = 
       {
         schoolName: "Universität Basel",
         subHeader: "Master of Science in Computer Science",
-        duration: "September 2023 - April 2025",
+        duration: "September 2023 - März 2025",
         urlLogo: "https://www.unibas.ch/dam/jcr:93abfa0e-58d6-45ed-930a-de414ca40b13/uni-basel-logo.svg",
         projectTitle: "Master Arbeit",
         project: "Automatisiertes Testen der Funktionalität von Websites",
