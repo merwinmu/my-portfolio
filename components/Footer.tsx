@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";  // Import useRouter
 import { githubProfileCardContent } from "../portfolio";  // Import the translation content
 
-const GithubProfileCard = () => {
+const Footer = () => {
   const { locale } = useRouter();  // Get the current locale (e.g., 'en' or 'de')
 
   // Get the content based on the current locale
@@ -11,7 +11,7 @@ const GithubProfileCard = () => {
 
   return (
     <section id="contact">
-      <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full p-24">
+      <div className="flex  gap-4 px-4 justify-between md:px-6 w-full p-24">
         <div className="space-y-3">
           <h3 className="h3">{content.title}</h3>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -24,10 +24,16 @@ const GithubProfileCard = () => {
               {content.mailLinkText}{" "}
             </Link>
           </p>
+          
+        </div>
+        <div>
+          <a href="https://credentials.uipath.com/516ff2f9-c94b-49c0-b14e-4fbaf6b3b53c#acc.jE2itb5v">
+          <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/155439527" alt="" />
+          </a>
         </div>
       </div>
     </section>
   );
 };
 
-export default GithubProfileCard;
+export default Footer;

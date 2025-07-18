@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     localizedSkills && (
       <Container className="text-center pb-8">
-        <h3 className="h3 pb-4">{localizedSkills.title}</h3>
+        <h3 className="h3 pb-4 font-bold">{localizedSkills.title}</h3>
         {localizedSkills.data.map((section, index) => {
           return (
             <Row className="" key={index}>

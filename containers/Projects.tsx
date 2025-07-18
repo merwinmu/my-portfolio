@@ -13,7 +13,7 @@ const Projects = () => {
       <div >
         
         <div className="text-center">
-          <h2 className="h2 text-center pb-4">{localizedProjects.title}</h2>
+          <h2 className="h2 text-center pb-4 font-bold">{localizedProjects.title}</h2>
         </div>
 
         {/* Tailwind CSS grid layout */}

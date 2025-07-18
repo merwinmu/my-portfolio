@@ -30,7 +30,7 @@ const Greetings = () => {
                     style={{ width: '20%', borderRadius: '50%' }}
                     className="shadow-lg "
                   />
-                  <p className="fs-1">{localizedGreeting.title}</p> {/* Use the localized title */}
+                  <p className="fs-1 font-bold">{localizedGreeting.title}</p> {/* Use the localized title */}
                 </div>
                 <p className="lead ">{localizedGreeting.description}</p> {/* Use the localized description */}
               </div>

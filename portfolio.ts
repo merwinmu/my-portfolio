@@ -152,7 +152,7 @@ export const SkillsSection: { en: SkillsSectionType; de: SkillsSectionType } = {
         skills: [
           "Developing RPA bots (including process analysis, conceptualization, programming, documentation, and go-live in close collaboration with the business) across various Migros companies and departments",
           "DevOps integration: UiPath pipeline, .NET 8 (C# 12) self-contained build with Visual Studio Code, UiPath unattended build",
-          "Working in SCRUM in the BPA team",
+          "Certified UiPath Automation Developer Professional",
           "Tools used: UiPath, Office O365, SAP, Jira, .NET 8 (C# 12), Visual Studio Code, Azure Eventhub",
         ],
         softwareSkills: [
@@ -277,7 +277,7 @@ export const SkillsSection: { en: SkillsSectionType; de: SkillsSectionType } = {
         skills: [
           "Entwickeln von RPA Robotern (inkl. Prozessanalyse, Konzeptionierung, Programmierung, Dokumentation und Go-Live in enger Zusammenarbeit mit dem Business) in verschiedenen Migros Unternehmen und Abteilungen",
           "DevOps Integration: Pipeline UiPath, .NET 8 (C# 12) self-contained Build mit Visual Studio Code, UiPath unattended build",
-          "Arbeiten nach SCRUM im BPA Team",
+          "Zertifizierter UiPath Automation Developer Professional",
           "Eingesetzte Tools: UiPath, Office O365, SAP, Jira, .NET 8 (C# 12), Visual Studio Code, Azure Eventhub",
         ],
         softwareSkills: [
@@ -614,7 +614,7 @@ export const githubProfileCardContent = {
   de: {
     title: "Kontakt aufnehmen",
     description: "Möchten Sie mir eine Nachricht schreiben?",
-    mailLinkText: "Schicken Sie mir einfach eine Mail",
+    mailLinkText: "merwin.m@hotmail.com",
     mail: "merwin.m@hotmail.com"
   },
 };

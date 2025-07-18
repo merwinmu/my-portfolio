@@ -15,7 +15,7 @@ const Career = () => {
 
         <Container className="flex flex-col">
           <div>
-          <h2 className="h2 text-center pb-4">{localizedExperience.title}</h2>
+          <h2 className="h2 text-center pb-4 font-bold">{localizedExperience.title}</h2>
 
             {localizedExperience.experienceType.map(info => {
               return (
@@ -29,7 +29,7 @@ const Career = () => {
             })}
           </div>
           <div className="py-8">
-          <h2 className="h2 text-center pb-4">{localizedEducation.title}</h2>
+          <h2 className="h2 text-center pb-4 font-bold">{localizedEducation.title}</h2>
 
             {localizedEducation.educationTypes.map(info => {
               return (
