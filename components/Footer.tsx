@@ -11,7 +11,7 @@ const Footer = () => {
 
   return (
     <section id="contact">
-      <div className="flex  gap-4 px-4 justify-between md:px-6 w-full p-24">
+      <div className="flex  gap-4 px-4 justify-between md:px-6 w-full p-24 max-w-5xl mx-auto">
         <div className="space-y-3">
           <h3 className="h3">{content.title}</h3>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">

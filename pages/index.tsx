@@ -20,7 +20,7 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
 
   return (
 
-<div className="min-h-screen bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] max-w-5xl mx-auto">
+<div className="min-h-screen bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] ">
   <Navigation />
   <SEO />
   <Greetings />
